@@ -1,4 +1,4 @@
-package com.triveshpatel.linkedin.posts_service.entity;
+package com.triveshpatel.linkedIn.posts_service.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

@@ -12,7 +12,7 @@
 	<artifactId>connections-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>connections-service</name>
-	<description>Connections Service for linkedin</description>
+	<description>Connections Service for linkedIn</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -57,6 +57,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka</artifactId>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>

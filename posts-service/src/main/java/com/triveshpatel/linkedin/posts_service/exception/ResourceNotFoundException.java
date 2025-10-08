@@ -1,4 +1,4 @@
-package com.triveshpatel.linkedin.posts_service.exception;
+package com.triveshpatel.linkedIn.posts_service.exception;
 
 public class ResourceNotFoundException extends RuntimeException{
     public ResourceNotFoundException(String message){

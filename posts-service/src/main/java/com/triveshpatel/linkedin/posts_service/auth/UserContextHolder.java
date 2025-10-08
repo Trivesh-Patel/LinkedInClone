@@ -1,4 +1,4 @@
-package com.triveshpatel.linkedin.posts_service.auth;
+package com.triveshpatel.linkedIn.posts_service.auth;
 
 public class UserContextHolder {
 

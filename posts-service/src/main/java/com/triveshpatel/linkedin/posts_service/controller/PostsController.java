@@ -1,8 +1,8 @@
-package com.triveshpatel.linkedin.posts_service.controller;
+package com.triveshpatel.linkedIn.posts_service.controller;
 
-import com.triveshpatel.linkedin.posts_service.dto.PostCreateRequestDto;
-import com.triveshpatel.linkedin.posts_service.dto.PostDto;
-import com.triveshpatel.linkedin.posts_service.service.PostsService;
+import com.triveshpatel.linkedIn.posts_service.dto.PostCreateRequestDto;
+import com.triveshpatel.linkedIn.posts_service.dto.PostDto;
+import com.triveshpatel.linkedIn.posts_service.service.PostsService;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -20,7 +20,7 @@ public class PostsController {
 
     @PostMapping
     public ResponseEntity<PostDto> createPost(@RequestBody PostCreateRequestDto postCreateRequestDto, HttpServletRequest httpServletRequest){
-        PostDto createdPost = postsService.createPost(postCreateRequestDto, 1L);
+        PostDto createdPost = postsService.createPost(postCreateRequestDto);
         return new ResponseEntity<>(createdPost, HttpStatus.CREATED);
     }
 

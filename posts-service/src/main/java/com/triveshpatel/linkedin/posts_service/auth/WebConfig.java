@@ -1,4 +1,4 @@
-package com.triveshpatel.linkedin.posts_service.auth;
+package com.triveshpatel.linkedIn.posts_service.auth;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;

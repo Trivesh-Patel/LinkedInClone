@@ -14,10 +14,10 @@ import java.nio.charset.StandardCharsets;
 public class JWTService {
 
     @Value("${jwt.secretKey}")
-    private String jwtsecretkey;
+    private String jwtSecretkey;
 
     private SecretKey getSecretKey() {
-        return Keys.hmacShaKeyFor(jwtsecretkey.getBytes(StandardCharsets.UTF_8));
+        return Keys.hmacShaKeyFor(jwtSecretkey.getBytes(StandardCharsets.UTF_8));
     }
 
 

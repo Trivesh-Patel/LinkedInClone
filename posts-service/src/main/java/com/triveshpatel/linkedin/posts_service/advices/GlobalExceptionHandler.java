@@ -1,7 +1,7 @@
-package com.triveshpatel.linkedin.posts_service.advices;
+package com.triveshpatel.linkedIn.posts_service.advices;
 
-import com.triveshpatel.linkedin.posts_service.exception.BadRequestException;
-import com.triveshpatel.linkedin.posts_service.exception.ResourceNotFoundException;
+import com.triveshpatel.linkedIn.posts_service.exception.BadRequestException;
+import com.triveshpatel.linkedIn.posts_service.exception.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -22,7 +22,7 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>(apiError, HttpStatus.BAD_REQUEST);
     }
 
-    @ExceptionHandler(RuntimeException.class)
+    //@ExceptionHandler(RuntimeException.class)
     public ResponseEntity<ApiError> handleRuntimeException(RuntimeException ex){
         ApiError apiError = new ApiError(ex.getLocalizedMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         return new ResponseEntity<>(apiError, HttpStatus.INTERNAL_SERVER_ERROR);

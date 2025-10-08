@@ -12,7 +12,7 @@
 	<artifactId>discovery-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>discovery-server</name>
-	<description>Discovery server for linkedin</description>
+	<description>Discovery server for linkedIn</description>
 	<url/>
 	<licenses>
 		<license/>

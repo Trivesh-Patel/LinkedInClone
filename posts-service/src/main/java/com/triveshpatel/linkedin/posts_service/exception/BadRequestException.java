@@ -1,4 +1,4 @@
-package com.triveshpatel.linkedin.posts_service.exception;
+package com.triveshpatel.linkedIn.posts_service.exception;
 
 public class BadRequestException extends RuntimeException{
     public BadRequestException(String message){

@@ -1,4 +1,4 @@
-package com.triveshpatel.linkedin.posts_service;
+package com.triveshpatel.linkedIn.posts_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

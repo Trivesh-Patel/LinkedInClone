@@ -1,4 +1,4 @@
-package com.triveshpatel.linkedin.posts_service.auth;
+package com.triveshpatel.linkedIn.posts_service.auth;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

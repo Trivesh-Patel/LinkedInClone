@@ -1,4 +1,4 @@
-package com.triveshpatel.linkedin.posts_service.advices;
+package com.triveshpatel.linkedIn.posts_service.advices;
 
 import lombok.Data;
 import org.springframework.http.HttpStatus;

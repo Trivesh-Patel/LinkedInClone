@@ -1,4 +1,4 @@
-package com.triveshpatel.linkedin.posts_service.config;
+package com.triveshpatel.linkedIn.posts_service.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.triveshpatel.linkedin.posts_service.dto;
+package com.triveshpatel.linkedIn.posts_service.dto;
 
 import lombok.Data;
 import java.time.LocalDateTime;
